@@ -57,12 +57,19 @@ a:link {
         padding: 0px 0px;
     }
     footer {
-        width: 87.5%;
+        width: 75%;
+        margin-left: 12.5%;
+        
         text-align: right;
         font-size: small;
         font-family: 'Crimson Text', serif;
         color: #dad3d3;
     }
     footer p {
+
         margin-bottom: -15px;
+
+    }
+    footer iframe {
+        float: left;
     }

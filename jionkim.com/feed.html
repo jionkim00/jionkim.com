@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JION KIM</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" href="yellowshyguy.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@300&display=swap" rel="stylesheet">	
+</head>
+
+<body>
+	<h1>JION KIM</h1>
+	<nav>
+		<ul>
+			<a href="./blog">Web Log |</a>
+			<a href="./feed">Lifestyle Feed |</a>
+			<a href="./index">Home Page</a>
+			<a href="./projects">| Projects</a>
+			<a href="./about">| All About Me</a>
+		</ul>
+		
+	</nav>
+	
+	<div id="instafeed-container"></div>
+	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+    	resolution: 'high_resolution',
+		accessToken: 'IGQVJVOE9oWlRJMENYOVYzcEtVU3M0eFlQdy15V2xIbFBONFViWFA1WHQ1dFF0ZA21jd0k1bDNDNUZAsT3BqMGxfMV9zc25sTFRUYTF3WVdtMnFzT3dWSl8zMG1GWEZAScEFOQ2dPM2d6bTAzWDc0MFdGYgZDZD',
+
+	});
+	userFeed.run();
+	</script>
+</body>
+
+<footer>
+	<p>___________________________</p>
+	<p>Copyright <em>Jion Kim </em>2020</p>
+	<p>jion (at) g.ucla.edu </p>
+	<p><a href="https://www.github.com/jionkim00">Github</a> -- <a href="https://www.instagram.com/jionitals/">Instagram</a> -- <a href="https://www.twitter.com/JIONKlM">Twitter</a></p>
+	
+</footer>
+</html>

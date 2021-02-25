@@ -79,3 +79,6 @@ a:link {
         margin-left: 12.5%;
         margin-right: 12.5%;
     }
+    #blog p {
+        text-size: 12px;    
+    }

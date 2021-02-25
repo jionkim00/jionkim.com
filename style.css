@@ -75,6 +75,6 @@ a:link {
     }
 
     #blog {
-        align-self: center;
+        align-content: center;
         margin: 33%;
     }

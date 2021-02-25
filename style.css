@@ -73,3 +73,8 @@ a:link {
     footer iframe {
         float: left;
     }
+
+    #blog {
+        align-self: center;
+        margin: 33%;
+    }
